@@ -1,0 +1,79 @@
+/* default css */
+.text-center{
+    text-align: center;
+}
+
+.py {
+    padding: 100px 0;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  form {
+    padding: 50px;
+    box-shadow: 0 0 5px #ddd;
+  }
+  input {
+    width: 100%;
+    display: ;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: auto;
+    padding: 5px 20px;
+    background: ;
+    border: ;
+    outline: ;
+  }
+  input[type="submit"]:hover {
+    cursor: pointer;
+  }
+  
+  /*----------------------- Transaction Area  -----------------------*/
+  
+  #Transaction_Area {
+    display: none;
+  }
+  .transaction_Output {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-top: 50px;
+  }
+  .transaction_Output .deposit_out,
+  .withdraw_out,
+  .balance_out {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  .deposit_out {
+    background: aqua;
+  }
+  .withdraw_out {
+    background: bisque;
+  }
+  .balance_out {
+    background: chartreuse;
+  }
+  .amount {
+    font-size: 33px;
+    font-weight: bold;
+  }
+  .transaction_Input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-top: 50px;
+  }
+  #deposit_btn {
+    background: aqua;
+    border: 2px solid aqua;
+  }
+  #withdraw_btn {
+    background: bisque;
+    border: 2px solid bisque;
+  }
+  
